@@ -11,6 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <meta property="fc:frame" content="vNext" />
+      <meta property="fc:frame:image" content="https://i.redd.it/uvtfiea84jn31.jpg" />
+      <meta property="fc:frame:button:1" content="Green" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
