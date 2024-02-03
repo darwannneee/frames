@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
       <meta property="fc:frame" content="vNext" />
-      <meta property="fc:frame:image" content="https://i.redd.it/uvtfiea84jn31.jpg" />
-      <meta property="fc:frame:button:1" content="Green" />
+      <meta property="fc:frame:image" content="https://i.pinimg.com/564x/a2/63/b3/a263b35837d2204c5a3ddbe5fade0fb7.jpg" />
+      <meta property="fc:frame:button:1" content="GM" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
